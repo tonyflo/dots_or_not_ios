@@ -22,6 +22,11 @@
 	IBOutlet UILabel *a;
 	IBOutlet UILabel *b;
 	IBOutlet UILabel *c;
+	IBOutlet UILabel *title1;
+	IBOutlet UILabel *title2;
+	IBOutlet UILabel *title3;
+	IBOutlet UIButton *helpButton;
+	IBOutlet UIButton *back2;
 	
 }
 
@@ -29,11 +34,13 @@
 @property (nonatomic, retain) IBOutlet UISegmentedControl *rotation;
 @property (nonatomic, retain) IBOutlet UISegmentedControl *color;
 
+-(IBAction)helpClicked:(id)sender;
 -(IBAction)buttonClicked:(id)sender;
 -(IBAction)backClicked:(id)sender;
 -(IBAction)speedChanged;
 -(IBAction)rotationChanged;
 -(IBAction)colorChanged;
+-(IBAction)backClicked2:(id)sender;
 
 @end
 

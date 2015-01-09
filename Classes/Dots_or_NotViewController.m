@@ -16,6 +16,7 @@
 {
 	[super viewDidLoad];
 	back.hidden = YES;
+	back2.hidden = YES;
 }
 
 -(IBAction)speedChanged
@@ -35,6 +36,9 @@
 
 -(IBAction)buttonClicked:(id)sender
 {
+	title1.hidden = YES;
+	title2.hidden = YES;
+	title3.hidden = YES;
 	dots.hidden = NO;
 	back.hidden = NO;
 	speed.hidden = YES;
@@ -44,14 +48,13 @@
 	a.hidden = YES;
 	b.hidden = YES;
 	c.hidden = YES;
+	helpButton.hidden = YES;
 	if (selectedSpeed == 0 )
 	{
 		NSLog(@"Speed Normal");		
 		if (selectedRotation == 0 )
 		{
 			NSLog(@"Rotation Forward");
-			if (selectedColor == 0 )
-			{
 				NSLog(@"Color grey");
 				dots.animationImages = [NSArray arrayWithObjects:
 										[UIImage imageNamed: @"dot1.png"],
@@ -66,56 +69,14 @@
 										[UIImage imageNamed: @"dot10.png"],
 										[UIImage imageNamed: @"dot11.png"],	
 										[UIImage imageNamed: @"dot12.png"], nil];
-				[dots setAnimationRepeatCount:20];
+				[dots setAnimationRepeatCount:100];
 				dots.animationDuration = 1.3;
 				[dots startAnimating];	
-			}
-			if (selectedColor == 1 )
-			{
-				NSLog(@"Color white");
-				dots.animationImages = [NSArray arrayWithObjects:
-										[UIImage imageNamed: @"dotL1.png"],
-										[UIImage imageNamed: @"dotL2.png"],
-										[UIImage imageNamed: @"dotL3.png"],	
-										[UIImage imageNamed: @"dotL4.png"],	
-										[UIImage imageNamed: @"dotL5.png"],	
-										[UIImage imageNamed: @"dotL6.png"],
-										[UIImage imageNamed: @"dotL7.png"],
-										[UIImage imageNamed: @"dotL8.png"],	
-										[UIImage imageNamed: @"dotL9.png"],
-										[UIImage imageNamed: @"dotL10.png"],
-										[UIImage imageNamed: @"dotL11.png"],	
-										[UIImage imageNamed: @"dotL12.png"], nil];
-				[dots setAnimationRepeatCount:20];
-				dots.animationDuration = 1.3;
-				[dots startAnimating];					
-			}
-			if (selectedColor == 2 )
-			{
-				NSLog(@"Color black");
-				dots.animationImages = [NSArray arrayWithObjects:
-										[UIImage imageNamed: @"dotD1.png"],
-										[UIImage imageNamed: @"dotD2.png"],
-										[UIImage imageNamed: @"dotD3.png"],	
-										[UIImage imageNamed: @"dotD4.png"],	
-										[UIImage imageNamed: @"dotD5.png"],	
-										[UIImage imageNamed: @"dotD6.png"],
-										[UIImage imageNamed: @"dotD7.png"],
-										[UIImage imageNamed: @"dotD8.png"],	
-										[UIImage imageNamed: @"dotD9.png"],
-										[UIImage imageNamed: @"dotD10.png"],
-										[UIImage imageNamed: @"dotD11.png"],	
-										[UIImage imageNamed: @"dotD12.png"], nil];
-				[dots setAnimationRepeatCount:20];
-				dots.animationDuration = 1.3;
-				[dots startAnimating];					
-			}
+
 		}
 		if (selectedRotation == 1 )
 		{
 			NSLog(@"Roation Reverse");
-			if (selectedColor == 0 )
-			{
 				NSLog(@"Color grey");
 				dots.animationImages = [NSArray arrayWithObjects:
 										[UIImage imageNamed: @"dot12.png"],
@@ -130,50 +91,10 @@
 										[UIImage imageNamed: @"dot3.png"],
 										[UIImage imageNamed: @"dot2.png"],	
 										[UIImage imageNamed: @"dot1.png"], nil];
-				[dots setAnimationRepeatCount:20];
+				[dots setAnimationRepeatCount:100];
 				dots.animationDuration = 1.3;
 				[dots startAnimating];				
-			}
-			if (selectedColor == 1 )
-			{
-				NSLog(@"Color white");
-				dots.animationImages = [NSArray arrayWithObjects:
-										[UIImage imageNamed: @"dotL12.png"],
-										[UIImage imageNamed: @"dotL11.png"],
-										[UIImage imageNamed: @"dotL10.png"],	
-										[UIImage imageNamed: @"dotL9.png"],	
-										[UIImage imageNamed: @"dotL8.png"],	
-										[UIImage imageNamed: @"dotL7.png"],
-										[UIImage imageNamed: @"dotL6.png"],
-										[UIImage imageNamed: @"dotL5.png"],	
-										[UIImage imageNamed: @"dotL4.png"],
-										[UIImage imageNamed: @"dotL3.png"],
-										[UIImage imageNamed: @"dotL2.png"],	
-										[UIImage imageNamed: @"dotL1.png"], nil];
-				[dots setAnimationRepeatCount:20];
-				dots.animationDuration = 1.3;
-				[dots startAnimating];						
-			}
-			if (selectedColor == 2 )
-			{
-				NSLog(@"Color black");
-				dots.animationImages = [NSArray arrayWithObjects:
-										[UIImage imageNamed: @"dotD12.png"],
-										[UIImage imageNamed: @"dotD11.png"],
-										[UIImage imageNamed: @"dotD10.png"],	
-										[UIImage imageNamed: @"dotD9.png"],	
-										[UIImage imageNamed: @"dotD8.png"],	
-										[UIImage imageNamed: @"dotD7.png"],
-										[UIImage imageNamed: @"dotD6.png"],
-										[UIImage imageNamed: @"dotD5.png"],	
-										[UIImage imageNamed: @"dotD4.png"],
-										[UIImage imageNamed: @"dotD3.png"],
-										[UIImage imageNamed: @"dotD2.png"],	
-										[UIImage imageNamed: @"dotD1.png"], nil];
-				[dots setAnimationRepeatCount:20];
-				dots.animationDuration = 1.3;
-				[dots startAnimating];						
-			}
+
 		}
 	} 
 	if (selectedSpeed == 1 )
@@ -182,8 +103,6 @@
 		if (selectedRotation == 0 )
 		{
 			NSLog(@"Rotation Forward");			
-			if ( selectedColor == 0 )
-			{
 				NSLog(@"Color white");
 				dots.animationImages = [NSArray arrayWithObjects:
 										[UIImage imageNamed: @"dot1.png"],
@@ -198,57 +117,14 @@
 										[UIImage imageNamed: @"dot10.png"],
 										[UIImage imageNamed: @"dot11.png"],	
 										[UIImage imageNamed: @"dot12.png"], nil];
-				[dots setAnimationRepeatCount:20];
+				[dots setAnimationRepeatCount:100];
 				dots.animationDuration = .9;
 				[dots startAnimating];
-			}
-			if ( selectedColor == 1 )
-			{
-				NSLog(@"Color white");
-				dots.animationImages = [NSArray arrayWithObjects:
-										[UIImage imageNamed: @"dotL1.png"],
-										[UIImage imageNamed: @"dotL2.png"],
-										[UIImage imageNamed: @"dotL3.png"],	
-										[UIImage imageNamed: @"dotL4.png"],	
-										[UIImage imageNamed: @"dotL5.png"],	
-										[UIImage imageNamed: @"dotL6.png"],
-										[UIImage imageNamed: @"dotL7.png"],
-										[UIImage imageNamed: @"dotL8.png"],	
-										[UIImage imageNamed: @"dotL9.png"],
-										[UIImage imageNamed: @"dotL10.png"],
-										[UIImage imageNamed: @"dotL11.png"],	
-										[UIImage imageNamed: @"dotL12.png"], nil];
-				[dots setAnimationRepeatCount:20];
-				dots.animationDuration = .9;
-				[dots startAnimating];
-				
-			}
-			if ( selectedColor == 2 )
-			{
-				NSLog(@"Color black");
-				dots.animationImages = [NSArray arrayWithObjects:
-										[UIImage imageNamed: @"dotD1.png"],
-										[UIImage imageNamed: @"dotD2.png"],
-										[UIImage imageNamed: @"dotD3.png"],	
-										[UIImage imageNamed: @"dotD4.png"],	
-										[UIImage imageNamed: @"dotD5.png"],	
-										[UIImage imageNamed: @"dotD6.png"],
-										[UIImage imageNamed: @"dotD7.png"],
-										[UIImage imageNamed: @"dotD8.png"],	
-										[UIImage imageNamed: @"dotD9.png"],
-										[UIImage imageNamed: @"dotD10.png"],
-										[UIImage imageNamed: @"dotD11.png"],	
-										[UIImage imageNamed: @"dotD12.png"], nil];
-				[dots setAnimationRepeatCount:20];
-				dots.animationDuration = .9;
-				[dots startAnimating];
-			}
+
 		}
 		if (selectedRotation == 1 )
 		{
 			NSLog(@"Rotation Reverse");			
-			if (selectedColor == 0 )
-			{
 				NSLog(@"Color grey");
 				dots.animationImages = [NSArray arrayWithObjects:
 										[UIImage imageNamed: @"dot12.png"],
@@ -263,52 +139,10 @@
 										[UIImage imageNamed: @"dot3.png"],
 										[UIImage imageNamed: @"dot2.png"],	
 										[UIImage imageNamed: @"dot1.png"], nil];
-				[dots setAnimationRepeatCount:20];
+				[dots setAnimationRepeatCount:100];
 				dots.animationDuration = .9;
 				[dots startAnimating];
-			}
-			if (selectedColor == 1 )
-			{
-				NSLog(@"Color white");
-				dots.animationImages = [NSArray arrayWithObjects:
-										[UIImage imageNamed: @"dotL12.png"],
-										[UIImage imageNamed: @"dotL11.png"],
-										[UIImage imageNamed: @"dotL10.png"],	
-										[UIImage imageNamed: @"dotL9.png"],	
-										[UIImage imageNamed: @"dotL8.png"],	
-										[UIImage imageNamed: @"dotL7.png"],
-										[UIImage imageNamed: @"dotL6.png"],
-										[UIImage imageNamed: @"dotL5.png"],	
-										[UIImage imageNamed: @"dotL4.png"],
-										[UIImage imageNamed: @"dotL3.png"],
-										[UIImage imageNamed: @"dotL2.png"],	
-										[UIImage imageNamed: @"dotL1.png"], nil];
-				[dots setAnimationRepeatCount:20];
-				dots.animationDuration = .9;
-				[dots startAnimating];
-				
-				
-			}
-			if (selectedColor == 2 )
-			{
-				NSLog(@"Color black");
-				dots.animationImages = [NSArray arrayWithObjects:
-										[UIImage imageNamed: @"dotD12.png"],
-										[UIImage imageNamed: @"dotD11.png"],
-										[UIImage imageNamed: @"dotD10.png"],	
-										[UIImage imageNamed: @"dotD9.png"],	
-										[UIImage imageNamed: @"dotD8.png"],	
-										[UIImage imageNamed: @"dotD7.png"],
-										[UIImage imageNamed: @"dotD6.png"],
-										[UIImage imageNamed: @"dotD5.png"],	
-										[UIImage imageNamed: @"dotD4.png"],
-										[UIImage imageNamed: @"dotD3.png"],
-										[UIImage imageNamed: @"dotD2.png"],	
-										[UIImage imageNamed: @"dotD1.png"], nil];
-				[dots setAnimationRepeatCount:20];
-				dots.animationDuration = .9;
-				[dots startAnimating];
-			}
+
 		}
 	}		
 } 
@@ -325,7 +159,51 @@
 	b.hidden = NO;
 	c.hidden = NO;
 	dots.hidden = YES;
+	title1.hidden = NO;
+	title2.hidden = NO;
+	title3.hidden = NO;
+	helpButton.hidden = NO;
+
 }
+
+-(IBAction)helpClicked:(id)sender {
+	title1.hidden = YES;
+	title2.hidden = YES;
+	title3.hidden = YES;
+	dots.hidden = YES;
+	back.hidden = NO;
+	speed.hidden = YES;
+	go.hidden = YES;
+	rotation.hidden = YES;
+	color.hidden = YES;
+	a.hidden = YES;
+	b.hidden = YES;
+	c.hidden = YES;
+	helpButton.hidden = YES;
+	back2.hidden = NO;	
+}
+
+
+-(IBAction)backClicked2:(id)sender 
+{
+	speed.hidden = NO;
+	go.hidden = NO;
+	rotation.hidden = NO;
+	color.hidden = NO;
+	back.hidden = YES;
+	a.hidden = NO;
+	b.hidden = NO;
+	c.hidden = NO;
+	dots.hidden = YES;
+	title1.hidden = NO;
+	title2.hidden = NO;
+	title3.hidden = NO;
+	helpButton.hidden = NO;	
+	back2.hidden = YES;
+	
+	
+}
+
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.

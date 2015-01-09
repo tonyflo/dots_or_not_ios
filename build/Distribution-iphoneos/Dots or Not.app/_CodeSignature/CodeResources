@@ -6,11 +6,11 @@
 	<dict>
 		<key>Dots_or_NotViewController.nib</key>
 		<data>
-		MMnV6vXgEXBVl28RLo8cP0dJW4M=
+		aDSBOZiVzMGW/qh4dxENPhQgc3Y=
 		</data>
 		<key>Icon.png</key>
 		<data>
-		O+/M5MMVfb+mwSDbmuS+Xnv56K4=
+		rJuoEiJKLdgLXX/9bp88R/hQb1A=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
@@ -20,153 +20,65 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>button.png</key>
+		<data>
+		vpXOpwqpXxQiGS7cfyCpSYxlTSI=
+		</data>
 		<key>dot1.png</key>
 		<data>
-		D6J55RHvqSZYvp3JX03Rc6sHnPs=
+		EkiFuDi+2V+tNgdOjpMXVD0PqT4=
 		</data>
 		<key>dot10.png</key>
 		<data>
-		+eDcNq+aG96IOe+/r8LRrHEMi84=
+		TdT7RhafvP833BxGdKmpmN3xzBk=
 		</data>
 		<key>dot11.png</key>
 		<data>
-		n47whAafTAc0gcUgFcMxJvznhsQ=
+		pSSmfZdn1jxSPWInEV6DCxedOfQ=
 		</data>
 		<key>dot12.png</key>
 		<data>
-		pRolJyetNeOB9AKOyKIxCSCao80=
+		PTZcB8gGRmgbmwUjMAzjy7c7mgU=
 		</data>
 		<key>dot2.png</key>
 		<data>
-		KhzxZh7Fe/8tpebd57gAVddVhfs=
+		sh8NOqr2WIMyncZHkS2DgpNtLXo=
 		</data>
 		<key>dot3.png</key>
 		<data>
-		AYPbfn0uYi9VdvNdH/gOx1oE3mw=
+		KGDiULfVVwgynsT/PZg80WFbHKk=
 		</data>
 		<key>dot4.png</key>
 		<data>
-		jpJiMCr6pwXjspBpmVXd2Cb+jIw=
+		fgSptTVkes611/3DIGz3TOSaYoM=
 		</data>
 		<key>dot5.png</key>
 		<data>
-		co//f3pRNw1/ANVDE2MJmwzp4gQ=
+		TtSI0nzaK/qeg9H3r07uX9fUskM=
 		</data>
 		<key>dot6.png</key>
 		<data>
-		g/KOx7ilb3kG3LSFAJqtji1ZW+0=
+		MBzyNJRfqF8MY+l9sQ2ZcN6sjSE=
 		</data>
 		<key>dot7.png</key>
 		<data>
-		j/FqOaIJbmudJ1AHeCbJbAKmqW4=
+		sCbGROZPVLZQsWdsiE7vUgRTmFE=
 		</data>
 		<key>dot8.png</key>
 		<data>
-		wKePpiMTeoNU6Tqq9oFIKAqhKB0=
+		ngHwRRFugD8P1mSGNARJMoh0WRA=
 		</data>
 		<key>dot9.png</key>
 		<data>
-		/LYhVYVBLrn2M4B8TQJdWWrK3rk=
-		</data>
-		<key>dotD1.png</key>
-		<data>
-		5FrgYJIIuhNAIzua+1sXMWU6XHg=
-		</data>
-		<key>dotD10.png</key>
-		<data>
-		blP+viFsJ9ybr5IEaKV5UIVQAqA=
-		</data>
-		<key>dotD11.png</key>
-		<data>
-		d7TlpqsA7b9YOrizkaR7LnZqB7s=
-		</data>
-		<key>dotD12.png</key>
-		<data>
-		VVGXuXDemKj9tnuNhGUMoHwjYxw=
-		</data>
-		<key>dotD2.png</key>
-		<data>
-		JYHCaaHOEBauNUGCTsJGhD15Xp8=
-		</data>
-		<key>dotD3.png</key>
-		<data>
-		JQuXvJLGFeQ4qFbHlODpsc/cKJo=
-		</data>
-		<key>dotD4.png</key>
-		<data>
-		csGR20ehdhO33t11Vs/UWij3W/s=
-		</data>
-		<key>dotD5.png</key>
-		<data>
-		tuLMO2llERIGk+z5Fh+B7yrLI1Y=
-		</data>
-		<key>dotD6.png</key>
-		<data>
-		MKA4gtZojC64k4U4GEedtMrYYc0=
-		</data>
-		<key>dotD7.png</key>
-		<data>
-		W7MUOAxL7VlrPsyz+s5EDTt6I2s=
-		</data>
-		<key>dotD8.png</key>
-		<data>
-		6XkQIkOAlAnGJYAbsAzvmQDORSE=
-		</data>
-		<key>dotD9.png</key>
-		<data>
-		KdmPFqAHBwQWUGwHbHLDrQdTpK0=
-		</data>
-		<key>dotL1.png</key>
-		<data>
-		Mlx9IJgbKRckHcqyC84b4YV1aXQ=
-		</data>
-		<key>dotL10.png</key>
-		<data>
-		CUw/TtnVwrUWyCpLx9fDS31e4d0=
-		</data>
-		<key>dotL11.png</key>
-		<data>
-		IUUTiNyde5h2aSv57TqJP7295oA=
-		</data>
-		<key>dotL12.png</key>
-		<data>
-		mxJlOcgW9npG227DDSV1wiOKNL0=
-		</data>
-		<key>dotL2.png</key>
-		<data>
-		QOSNACa3byWlf/HaP6v5/pC3oGo=
-		</data>
-		<key>dotL3.png</key>
-		<data>
-		oylIwfK8jbauqIR2EgxcoHPEU54=
-		</data>
-		<key>dotL4.png</key>
-		<data>
-		i+ValcNrg3yD3StX19CNkqNZbNw=
-		</data>
-		<key>dotL5.png</key>
-		<data>
-		dr9cPi/1WSHb7ZzW+XIo89aWykU=
-		</data>
-		<key>dotL6.png</key>
-		<data>
-		RUuHlKhFqWoOq6jRkrU9dtgML9s=
-		</data>
-		<key>dotL7.png</key>
-		<data>
-		TV1KGaFbHAg3JOXm/P6YahkiI5U=
-		</data>
-		<key>dotL8.png</key>
-		<data>
-		ObMm6Dl+R0pJiWML+/thQaq9eOA=
-		</data>
-		<key>dotL9.png</key>
-		<data>
-		ISmG7lAMouvS3l9onNb0CGPY4YI=
+		fpeE5MtB3onhF8ODdAqaNtMNHdU=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		1FHKT4cefPJ6iaCBXAZyO6LrCd4=
+		G91r6EMyUoGdLcpZuZNG+XmW5fg=
+		</data>
+		<key>instructions.png</key>
+		<data>
+		C7+cfbVc0r7kddrdDoplQvTUMuo=
 		</data>
 	</dict>
 	<key>rules</key>
